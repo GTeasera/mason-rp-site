@@ -1,6 +1,6 @@
 # site-for-gta
 
-<h1>GitHub pages</h1>
+<h2>GitHub pages</h2>
 https://gteasera.github.io/mason-rp-site/
 
 <h2>Description<h2>
