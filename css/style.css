@@ -7,6 +7,7 @@ body {
     min-width: 320px;
     overflow-x: hidden;
     height: auto;
+    background: white;
 }
 .navbar{
     width: 100%;
@@ -41,7 +42,9 @@ body {
 }
 
 .navbar-menu li a:hover{
+    transition: 1s;
     opacity: 1;
+    text-decoration:overline;
 }
 
 .navbar-wrap{
@@ -49,9 +52,26 @@ body {
     flex-flow: row nowrap;
 }
 
-.callback{
-    margin-left: 170px;
+.themeModes{
+    margin-right: 3px;
     margin-bottom: 7.6%;
+    text-decoration: none;
+    color:white;
+    border-radius: 14px;
+    border: 10;
+    background: black;
+    border-color: black;    
+}
+
+.callback{
+    margin-left: 5px;
+    margin-bottom: 7.6%;
+    text-decoration: none;
+    color:black;
+}
+.callback:hover{
+    text-decoration:overline;
+    color:cornflowerblue;
 }
 
 .navbar-brand{

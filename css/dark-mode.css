@@ -1,7 +1,81 @@
-body{
-    transition: 1s;
-    background-color: #131615;
+body {
+    position: relative;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    background: black;
 }
-h1,h2,h3,h4,h5,p, text, label, li, a{
-    color:beige;
+.navbar{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0,0,0, .1);
+}
+
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar-menu li{
+    display: inline-block;
+    margin-bottom: 15%;
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    color: #000;
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 17px;
+}
+
+.navbar-menu li a:hover{
+    transition: 1s;
+    opacity: 1;
+    text-decoration:overline;
+}
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.themeModes{
+    margin-right: 3px;
+    margin-bottom: 7.6%;
+    text-decoration: none;
+    color:white;
+    border-radius: 14px;
+    border: 10;
+    background: black;
+    border-color: black;    
+}
+
+.callback{
+    margin-left: 5px;
+    margin-bottom: 7.6%;
+    text-decoration: none;
+    color:black;
+}
+.callback:hover{
+    text-decoration:overline;
+    color:cornflowerblue;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
 }
