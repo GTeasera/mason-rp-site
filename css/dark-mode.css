@@ -3,11 +3,11 @@ body {
     font-family: "Noto Sans", sans-serif;
     font-size: 16px;
     line-height: 1.4;
-    color: #000;
+    color: rgb(255, 255, 255);
     min-width: 320px;
     overflow-x: hidden;
     height: auto;
-    background: black;
+    background: #090b0b;
 }
 .navbar{
     width: 100%;
@@ -30,12 +30,11 @@ body {
 
 .navbar-menu li{
     display: inline-block;
-    margin-bottom: 15%;
 }
 
 .navbar-menu li a{
     display: inline-block;
-    color: #000;
+    color: rgb(255, 255, 255);
     opacity: 0.6;
     text-decoration: none;
     padding: 17px;
@@ -52,22 +51,24 @@ body {
     flex-flow: row nowrap;
 }
 
-.themeModes{
+.buttonTheme{
     margin-right: 3px;
-    margin-bottom: 7.6%;
     text-decoration: none;
     color:white;
     border-radius: 14px;
     border: 10;
     background: black;
-    border-color: black;    
+    border-color: white;    
+    outline: 0;
+}
+.buttonTheme:hover{
+    opacity: 0.6;
 }
 
 .callback{
-    margin-left: 5px;
-    margin-bottom: 7.6%;
+    margin-left: 12px;
     text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
 }
 .callback:hover{
     text-decoration:overline;
@@ -78,4 +79,5 @@ body {
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
+    color:white;
 }
