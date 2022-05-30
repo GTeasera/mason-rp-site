@@ -60,7 +60,7 @@ body {
     color:rgb(255, 255, 255);
     border-radius: 14px;
     border: 10;
-    background: rgb(0, 0, 0);
+    background: #11100f;
     border-color: rgb(255, 255, 255);    
     outline: 0;
     font-size: 16px
@@ -85,4 +85,24 @@ body {
     font-size: 26px;
     text-decoration: none;
     color:rgb(255, 255, 255)
+}
+
+/* Other css */
+
+.containerBox{
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.emailInput{
+    width: 500px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 24px;
+    opacity: 0.6;
+}
+.emailInput:hover{
+    opacity: 1;
+}
+.custom-checkbox{
+    border-radius: 24px;
 }
