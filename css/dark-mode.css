@@ -1,14 +1,7 @@
-* {
-    font-family: "Segoe UI";
-    font-weight: 200;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 body{
     transition: 1s;
-    background-color: #1e2227;
+    background-color: #131615;
 }
-h1,h2,h3,h4,h5,p{
+h1,h2,h3,h4,h5,p, text, label, li, a{
     color:beige;
 }
