@@ -26,3 +26,36 @@ body {
     padding-left: 0;
     margin-bottom: 0;
 }
+
+.navbar-menu li{
+    display: inline-block;
+    margin-bottom: 15%;
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    color: #000;
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 17px;
+}
+
+.navbar-menu li a:hover{
+    opacity: 1;
+}
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.callback{
+    margin-left: 170px;
+    margin-bottom: 7.6%;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+}
