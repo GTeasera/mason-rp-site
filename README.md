@@ -3,3 +3,7 @@ This site was made for 1 project in GTA(https://discord.gg/vd4pWgdQT6) like come
 
 <h2>GitHub pages</h2>
 https://gteasera.github.io/mason-rp-site/
+
+Dark-Mode - 1.1.0
+Ragistration - 0.0.2
+Site Version - 1.0.0
