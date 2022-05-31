@@ -1,3 +1,6 @@
+*{
+    transition: all .5s ease-in-out;
+}
 body {
     position: relative;
     font-family: "Noto Sans", sans-serif;
@@ -41,6 +44,7 @@ body {
     opacity: 0.6;
     text-decoration: none;
     padding: 17px;
+    transition: all .7s ease-in-out;
 }
 
 .navbar-menu li a:hover{
@@ -58,12 +62,14 @@ body {
     margin-right: 3px;
     text-decoration: none;
     color:rgb(255, 255, 255);
-    border-radius: 14px;
+    padding: 10px;
+    border-radius: 100px;
     border: 10;
     background: #11100f;
     border-color: rgb(255, 255, 255);    
     outline: 0;
-    font-size: 16px
+    font-size: 16px;
+    transition: all .7s ease-in-out;
 }
 .buttonTheme:hover{
     opacity: 0.6;
@@ -71,12 +77,17 @@ body {
 
 .callback{
     margin-right: 12px;
+    border-radius: 100px;
+    background-color: cornflowerblue;
+    padding: 10px;
     text-decoration: none;
     color:rgb(255, 255, 255);
+    transition: all .7s ease-in-out;
 }
 .callback:hover{
     text-decoration:overline;
-    color:cornflowerblue;
+    color:black;
+    background-color: gold;
 }
 
 .navbar-brand{
@@ -84,7 +95,11 @@ body {
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
-    color:rgb(255, 255, 255)
+    color:rgb(255, 255, 255);
+    transition: all .7s ease-in-out;
+}
+.navbar-brand:hover{
+    color:cornflowerblue;
 }
 
 /* Other css */
@@ -99,10 +114,15 @@ body {
     font-size: 24px;
     border-radius: 24px;
     opacity: 0.6;
+    transition: all .7s ease-in-out;
 }
 .emailInput:hover{
     opacity: 1;
 }
-.custom-checkbox{
-    border-radius: 24px;
+.custom-a{
+    color:white;
+    transition: all .7s ease-in-out;
+}
+.custom-a:hover{
+color:gold;
 }
