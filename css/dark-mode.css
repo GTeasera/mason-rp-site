@@ -1,0 +1,175 @@
+*{
+    transition: all .5s ease-in-out;
+}
+body {
+    position: relative;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    background: rgb(31, 31, 31);
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0,0,0, .1);
+    border-radius: 24px;
+}
+
+.navbar .container{
+    background-color: #11100f;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar-menu li{
+    display: inline-block;
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 17px;
+    transition: all .7s ease-in-out;
+}
+
+.navbar-menu li a:hover{
+    transition: 1s;
+    opacity: 1;
+    text-decoration:overline;
+    transform: scale(1.1);
+}
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.buttonTheme{
+    margin-right: 3px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 100px;
+    border: 10;
+    background: #11100f;
+    border-color: rgb(255, 255, 255);    
+    outline: 0;
+    font-size: 16px;
+    transition: all .7s ease-in-out;
+}
+.buttonTheme:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.callback{
+    margin-right: 12px;
+    border-radius: 100px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    transition: all .7s ease-in-out;
+}
+.callback:hover{
+    text-decoration:overline;
+    color:black;
+    background-color: gold;
+    transform: scale(1.1);
+}
+
+.navbar-brand{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    transition: all .7s ease-in-out;
+}
+.navbar-brand:hover{
+    color:cornflowerblue;
+    transform: scale(1.1);
+}
+
+/* Other css */
+
+.containerBox{
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.regLabel{
+    margin-top: 30%;
+    margin-left: 32%;
+}
+.emailInput{
+    margin-left: 32%;
+    width: 500px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 24px;
+    opacity: 0.6;
+    transition: all .7s ease-in-out;
+}
+.emailInput:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.custom-a{
+    color:white;
+    transition: all .7s ease-in-out;
+}
+.custom-a:hover{
+color:gold;
+transform: scale(1.1);
+}
+.confirm-button{
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 24px;
+    margin-left: 36%;
+    margin-top: 3%;
+    border-color: rgba(0,0,0, .1);
+    transition: all .7s ease-in-out;
+}
+.confirm-button:hover{
+    background-color: rgb(47, 130, 255);
+    color: #000;
+    opacity: 1;
+    transform: scale(1.1);
+}
+.login-button{
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    padding: 10px;
+    margin-left: 1%;
+    border-radius: 100px;
+    font-size: 24px;
+    border-color: rgba(0,0,0, .1);
+    transition: all .7s ease-in-out;
+}
+.login-button:hover{
+    background-color: gold;
+    color: #000;
+    opacity: 1;
+    transform: scale(1.1);
+}

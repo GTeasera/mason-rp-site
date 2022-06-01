@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MASON RP</title>
+  <link rel="icon" type="image/x-icon" href="material/icon.ico">
+  
+  <!-- CSS only -->
+  <link rel="stylesheet" href="css/dark-mode.css" id="theme">
+  </head>
+<body>
+    
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><h2>MASON</h2></a>
+
+      <div class="navbar-wrap"></div>
+        <ul class="navbar-menu">
+          <li><a href="#">Чому саме ми?</a></li>
+          <li><a href="#">Форум</a></li>
+          <li><a href="#">Допомогти проекту</a></li>
+          <li><a href="#">Як почати грати?</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+
+      <button href="#" class="buttonTheme" id="themeMode"> Змінити тему </button>
+      <a href="#" class="callback">Тех. підтримка</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="containerBox">
+    <div style="text-align: center;">
+      <h1 style="margin-right: 7%;font-size: 50px">MASON RP - РЕЄСТРАЦІЯ</h1>
+    </div>
+    <div>
+      <form>
+        <label class="regLabel" style="font-size: 32px" for="email"><b>Електронна пошта</b>
+        <br>
+        <input class="emailInput" type="text" placeholder="   Введіть свою електронну адресу" name="psw" requeired>
+      </label>
+        <br>
+        <br>
+
+        <label class="regLabel" style="font-size: 32px" for="email"><b>Пароль</b>
+        <br>
+        <input class="emailInput" type="text" placeholder="   Введіть свій пароль" name="psw" requeired>
+      </label>
+        <br>
+        <br>
+        <label class="regLabel" style="font-size: 32px" for="email"><b>Підтвердіть пароль</b>
+        <br>
+        <input class="emailInput" type="text" placeholder="   Підтвердіть свій пароль" name="psw" requeired>
+      </label>
+        <br>
+        <br>
+        <div>
+          <label id="confirmCheckBox" class="regLabel"><input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes"> Я погоджуюсь з <a class="custom-a" href="/pages/userLicense.html"> умовами використання </a></label>
+        </div>
+        <div>
+          <button class="confirm-button" id="cofirmButton">Закінчити реєстрацію</button> 
+          <button class="login-button" id="cofirmButton">Увійти</button>
+        </div>
+      </form>
+    </div>
+
+
+
+
+  
+  <!-- JavaScript Bundle with Popper -->
+  <script src="css/mode-controll.js"></script>
+</body>
+</html>
