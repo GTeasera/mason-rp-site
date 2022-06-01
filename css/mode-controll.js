@@ -3,10 +3,12 @@ let switchMode = document.getElementById("themeMode");
 themeMode.onclick = function() {
     let theme = document.getElementById("theme");
 
-    if(theme.getAttribute("href") == "/css/style.css"){
+    if(theme.getAttribute("href") == "/css/light-mode.css"){
+    console.log(theme.getAttribute("href"))
         theme.href = "/css/dark-mode.css";
     }
     else{
-        theme.href = "/css/style.css";
+    console.log(theme.getAttribute("href"))
+        theme.href = "/css/light-mode.css";
     }
 }
