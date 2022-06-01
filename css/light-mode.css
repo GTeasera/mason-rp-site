@@ -174,3 +174,10 @@ color:rgb(228, 194, 0);
     opacity: 1;
     transform: scale(1.1);
 }
+.user-agreement{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+    width: 900px;
+    font-weight: 16px;
+}
