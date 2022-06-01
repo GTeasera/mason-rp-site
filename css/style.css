@@ -101,7 +101,6 @@ body {
 }
 .navbar-brand:hover{
     color:cornflowerblue;
-    transform: scale(1.1);
 }
 
 
@@ -126,7 +125,6 @@ body {
 }
 .emailInput:hover{
     opacity: 1;
-    transform: scale(1.1);
 }
 .custom-a{
     color:rgb(0, 0, 0);
