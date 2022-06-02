@@ -48,7 +48,6 @@ body {
 }
 
 .navbar-menu li a:hover{
-    transition: 1s;
     opacity: 1;
     text-decoration:overline;
     transform: scale(1.1);
@@ -145,13 +144,30 @@ transform: scale(1.1);
     padding: 10px;
     border-radius: 100px;
     font-size: 24px;
-    margin-left: 40%;
+    margin-left: 36%;
     margin-top: 3%;
     border-color: rgba(0,0,0, .1);
     transition: all .7s ease-in-out;
 }
 .confirm-button:hover{
     background-color: rgb(47, 130, 255);
+    color: #000;
+    opacity: 1;
+    transform: scale(1.1);
+}
+.login-button{
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    padding: 10px;
+    margin-left: 1%;
+    border-radius: 100px;
+    font-size: 24px;
+    border-color: rgba(0,0,0, .1);
+    transition: all .7s ease-in-out;
+}
+.login-button:hover{
+    background-color: gold;
     color: #000;
     opacity: 1;
     transform: scale(1.1);
