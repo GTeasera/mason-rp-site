@@ -2,6 +2,7 @@
 This site was made for 1 project in GTA(https://discord.gg/vd4pWgdQT6) like comercial order.
 <h1><b>Site Version</b> - 1.0.0</h1>
 <p> In this version we have a hull of site and a bit of main functionality
+  <hr>
 <br><b>Dark-Mode</b> - 1.1.0 <br>
 <b>Light-Mode</b> - 1.1.0 <br>
 <s><b>Registration</b> - 0.0.3</s> <br>
