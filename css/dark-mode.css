@@ -172,6 +172,7 @@ transform: scale(1.1);
     color: #000;
     opacity: 1;
     transform: scale(1.1);
+
 }
 .clock {
     margin-left: 36%;
@@ -189,4 +190,27 @@ transform: scale(1.1);
     background-color: white;
     color: black;
     transform: scale(1.1);
+  }
+  .card{
+    width: 500px;
+    background-color: #11100f;
+    border-radius: 24px;
+    border: 3;
+    padding: 5px;
+    margin-top: 3%;
+    margin-left: 3%;
+    display: inline-block;
+  }
+  .cardTitle
+  {
+    font-size: 32px;
+    text-align: center;
+  }
+  .cardImage{
+    width: 500px;
+    height: 300px;
+    border-radius: 24px;
+  }
+  .cardDescription{
+    text-align: center;
   }
