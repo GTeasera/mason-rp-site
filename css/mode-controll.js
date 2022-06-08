@@ -5,10 +5,10 @@ themeMode.onclick = function() {
 
     if(theme.getAttribute("href") == "/css/light-mode.css"){
     console.log(theme.getAttribute("href"))
-        theme.href = "css/dark-mode.css";
+        theme.href = "/css/dark-mode.css";
     }
     else{
     console.log(theme.getAttribute("href"))
-        theme.href = "css/light-mode.css";
+        theme.href = "/css/light-mode.css";
     }
 }
