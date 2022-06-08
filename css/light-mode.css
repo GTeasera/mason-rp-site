@@ -49,6 +49,7 @@ body {
 
 .navbar-menu li a:hover{
     transform: scale(1.1);
+    transition: 1s;
     opacity: 1;
     text-decoration:overline;
 }
@@ -72,10 +73,9 @@ body {
     transition: all .7s ease-in-out;
 }
 .buttonTheme:hover{
-    opacity: 0.6;
+    background-color: black;
+    color: white;
     transform: scale(1.1);
-    background: black;
-    color: aliceblue;    
 }
 
 .callback{
@@ -103,8 +103,8 @@ body {
     transition: all .7s ease-in-out;
 }
 .navbar-brand:hover{
-    transform: scale(1.1);
     color:cornflowerblue;
+    transform: scale(1.1);
 }
 
 
@@ -128,8 +128,8 @@ body {
     transition: all .7s ease-in-out;
 }
 .emailInput:hover{
-    transform: scale(1.1);
     opacity: 1;
+    transform: scale(1.1);
 }
 .custom-a{
     color:rgb(0, 0, 0);
@@ -152,7 +152,7 @@ color:rgb(228, 194, 0);
     transition: all .7s ease-in-out;
 }
 .confirm-button:hover{
-    background-color: rgb(47, 137, 255);
+    background-color: rgb(47, 144, 255);
     color: #000;
     opacity: 1;
     transform: scale(1.1);
