@@ -7,7 +7,7 @@ This site was made for 1 project in GTA(https://discord.gg/vd4pWgdQT6) like come
 <b>Forum</b> - 0.0.3 <br>
 
 <h1><b>Site Version</b> - 1.0.0</h1> <br>
-
+<p> In this version we have a hull of site and a bit of main functionality
 
 
 <h2>GitHub pages (work uncorrectly)</h2>
