@@ -200,6 +200,7 @@ transform: scale(1.1);
     margin-top: 3%;
     margin-left: 3%;
     display: inline-block;
+    transition: all .7s ease-in-out;
   }
   .cardTitle
   {
@@ -214,3 +215,18 @@ transform: scale(1.1);
   .cardDescription{
     text-align: center;
   }
+
+  .card:hover{
+    transform: scale(1.1);
+    background-color:#3f3f3f;
+    box-shadow: 0 0 30px rgba(255,255,255,0.5);
+}
+
+  
+
+
+
+
+
+
+  
