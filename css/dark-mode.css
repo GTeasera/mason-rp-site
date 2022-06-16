@@ -203,7 +203,7 @@ transform: scale(1.1);
     border: 3;
     padding: 5px;
     margin-top: 3%;
-    margin-left: 15%;
+    margin-left: 12%;
     display: inline-block;
     transition: all .7s ease-in-out;
   }
@@ -280,11 +280,13 @@ transform: scale(1.1);
     padding: 5px;
     transition: all .7s ease-in-out;
     border-color: white;
+    transition: all .7s ease-in-out;
 }
 .checkListDecription{
     font-size: 22px;
     font-family: "Gill Sans", sans-serif;
     margin-left: 3%;
+    transition: all .7s ease-in-out;
 }
 .checkListDecriptionItem{
     font-size: 22px;
@@ -292,14 +294,19 @@ transform: scale(1.1);
     margin-left: 3%;
     color:white;
     text-decoration: dotted;
+    transition: all .9s ease-in-out;
+    text-align: left;
+
 }
 .checkListDecriptionItem:hover{
     transform: scale(1.1);
     color:greenyellow;
-    
+    margin-left: 39%;
+
 }
 .user-agreement{
     margin-left: 3%;
     width: 1500px;
     margin-bottom: 3%;
+    transition: all .7s ease-in-out;
 }
