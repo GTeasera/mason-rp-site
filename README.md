@@ -14,7 +14,7 @@ https://gteasera.github.io/mason-rp-site/
 <h2><b> Bug fix: </b></h2>
   <li style="text-align: left; opacity: 0.3;"> Nothing </li>
 <h2><b> Added: </b></h2>
-  <li style="text-align: left; opacity: 1;"> Downloading client <p style="opacity:0.3; color:gold">(beta without real file)</p> </li>
+  <li style="text-align: left; opacity: 1;"> Downloading client (beta without real file)</li>
 <h2><b> Removed: </b></h2>
    <li style="opacity: 0.3"> Nothing </li>
 <h2><b> Plans: </b></h2>
