@@ -4,88 +4,98 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MASON RP</title>
-  <link rel="icon" type="image/x-icon" href="material/icon.ico">
-  
-  <!-- CSS only -->
-  <link rel="stylesheet" href="css/dark-mode.css" id="theme">
-  </head>
+  <title>Site title</title>
+  <link rel="stylesheet" type="text/css" href="css/dark-mode.css">
+  <link rel="icon" type="image/x-icon" href="https://www.pinkplanetint.com/website/image/planet-logo.png">
+</head>
 <body>
+  <header>
+    <a href="#" class="logo">Logo</a>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Why we?</a></li>
+      <li><a href="#">Donate</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </header>
+  <section>
+    <img src="material/stars.png" id="stars">
+    <img src="material/moon.png" id="moon">
+    <img src="material/mountains_behind.png" id="mountains_behind">
+    <h2 id="text">Moon Light</h2>
+    <a href="#sec" id="btn">Explore</a>
+    <img src="material/mountains_front.png" id="mountains_front">
+  </section>
+  <div class="sec" id="sec">
+    <h2>Title</h2>
+    <p>If you want to use it for your website, you can contact Teasera#5823 <br><br>
     
-  <nav class="navbar">
-    <div class="container">
-      <a href="index.html" class="navbar-brand"><h2>MASON</h2></a>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+      scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+      into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+      release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+      software like Aldus PageMaker including versions of Lorem Ipsum. <br><br>
 
-      <div class="navbar-wrap"></div>
-        <ul class="navbar-menu">
-          <li><a href="pages/whywe.html">Про проєкт</a></li>
-          <li><a target="_blank" href="https://masonrp.at.ua/">Форум</a></li>
-          <li><a href="pages/donate.html">Допомогти проєкту</a></li>
-          <li><a href="pages/help.html">Як почати грати?</a></li>
-        </ul>
+      It is a long established fact that a reader will be distracted by the readable content of a page when looking 
+      at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+      as opposed to using 'Content here, content here', making it look like readable English. Many desktop 
+      publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search 
+      for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over 
+      the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
-      <button disabled="true" href="#" class="buttonTheme" id="themeMode"> Змінити тему </button>
-      <a href="mailto:vproject.masonrp@gmail.com" class="callback">Тех. підтримка</a>
-      </div>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+      scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+      into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+      release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+      software like Aldus PageMaker including versions of Lorem Ipsum. <br><br>
 
-    </div>
-  </nav>
+      It is a long established fact that a reader will be distracted by the readable content of a page when looking 
+      at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+      as opposed to using 'Content here, content here', making it look like readable English. Many desktop 
+      publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search 
+      for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over 
+      the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
-  <div class="containerBox">
-    <div style="text-align: center;">
-      <h1><div class="clock"></div></h1>
-    </div>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+      industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+      scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+      into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+      release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+      software like Aldus PageMaker including versions of Lorem Ipsum. <br><br>
+
+      It is a long established fact that a reader will be distracted by the readable content of a page when looking 
+      at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+      as opposed to using 'Content here, content here', making it look like readable English. Many desktop 
+      publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search 
+      for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over 
+      the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </p>
+
+
   </div>
 
-  <div class="containerBox">
-    <div style="text-align: left;">
-    <div class="newsTitle">
-      <h1 style="text-align: left;">Site Version 1.1.5 </h1>
-    </div>
-    <hr class="newsHR">
-    <div class="newsDecription">
-      <ul>
-        <li style="text-align: left"> Version date: 26/06/2022 </li>
-        <li style="text-align: left; color:crimson"> Next huge update will before server relise</li>
-      </ul>
+  <script>
+    let stars = document.getElementById('stars');
+    let moon = document.getElementById('moon');
+    let mountains_behind = document.getElementById('mountains_behind');
+    let text = document.getElementById('text');
+    let btn = document.getElementById('btn');
+    let mountains_front = document.getElementById('mountains_front');
+    let header = document.querySelector('header')
 
-      <div class="newsSubTitle">
-        Bug fix:
-      </div>
-      <hr class="newsMiniHR">      
-      <ul>
-        <li style="text-align: left; opacity: 0.3;"> Nothing</li>
-      </ul>
-      <div class="newsSubTitle">
-        Added:
-      </div>
-      <hr class="newsMiniHR">      
-      <ul>
-        <li style="text-align: left; opacity: 1;"> Downloading client <p style="opacity:0.3; color:gold">(beta without real file)</p></li>
-      </ul>
-
-      <div class="newsSubTitle">
-        Removed:
-      </div>
-      <hr class="newsMiniHR">      
-      <ul>
-        <li style="text-align: left; opacity: 0.3;"> Nothing </li>
-      </ul>
-
-      <div class="newsSubTitle">
-        Plans:
-      </div>
-      <hr class="newsMiniHR">      
-      <ul>
-        <li style="text-align: left;"> Bug fixing</li>
-      </ul>
-    </div>
-    </div>
-  </div>
-
-  
-  <!-- JavaScript Bundle with Popper -->
-  <script src="css/mode-controll.js"></script>
-  <script src="assets/clock.js"></script>
+    window.addEventListener('scroll', function(){
+      let value = window.scrollY;
+      stars.style.left = value * 0.25 + 'px';      
+      moon.style.top = value * 1.05 + 'px';
+      mountains_behind.style.top = value * 0.5 + 'px';
+      mountains_front.style.top = value * 0 + 'px';
+      text.style.marginRight = value * 4 + 'px';
+      text.style.marginTop = value * 1.5 + 'px';
+      btn.style.marginTop = value * 1.5 + 'px';
+      header.style.top = value * 0.5 + 'px';
+    })
+  </script>
 </body>
 </html>
